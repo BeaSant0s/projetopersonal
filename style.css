@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    }
+    ul{
+    list-style: none;
+    padding: 0;
+    }
+    nav{
+    background-color: black;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+    text-align: center;
+    }
+    h1, a{
+    color: aliceblue;
+    font-size: 15px;
+    }
+    nav, ul{
+        display: flex;
+        flex-direction: row;
+        }
+        li{
+        padding: 0 35px;
+        }
+        li:hover, h1:hover{
+        cursor: pointer;
+        opacity: 0.8;
+        background-color: rgba(255, 255, 255, 0.5);
+        }
+        #divBusca{
+            background-color:#E0EEEE;
+            border:solid 2px  rgb(218, 98, 0);
+            border-radius:10px;
+            width:300px;
+            height:32px;
+          }
+          #txtBusca{
+            float:left;
+           background-color:transparent;
+            padding-left:5px;
+            font-size:18px;
+            border:none;
+            height:32px;
+            width:191px;
+          }
+          #btnBusca{
+            border:none;
+            float:left;
+            height:32px;
+            border-radius:0 7px 7px 0;
+            width:109px;
+            font-weight:bold;
+            background: rgb(218, 98, 0);
+            font-size: 20px;
+          }
+          #divBusca img{
+            float:left;
+          }
+          button{
+            color: black;
+          }
+          img{
+            float: left;
+            border: transparent thin solid;
+            padding: 5px;
+            margin: 0px 10px 10px 0;
+            max-width: 750px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
