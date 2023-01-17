@@ -102,24 +102,7 @@ body {
       font-size: x-large;
       font-weight: 600;
  
- 
   }
-  .detalhes{
-     
-    border: black;
-    border-style: groove;
-    margin-left: 60%;
-    margin-right: 10%;
-    text-align: center;
-    padding-bottom: 0.5px;
-    padding-top: 0.2px;
-    font-weight: 100;
-    background-color:rgb(255, 129, 83);
-    font-size: larger;
-    box-shadow: 10px 20px grey;
- 
- 
-    }
     .informacoes{
  
       font-size: 20px;
@@ -129,8 +112,22 @@ body {
       padding-left: 20px;
       font-weight: 100;
       line-height: 25px;
+
+      border: black;
+      border-style: groove;
+      margin-left: 60%;
+      margin-right: 10%;
+      text-align: center;
+      padding-bottom: 0.5px;
+      padding-top: 0.2px;
+      font-weight: 100;
+      background-color:rgb(255, 129, 83);
+      font-size: larger;
+      box-shadow: 10px 20px grey;
+     
  
   }
+  
   .inscrição{
  
     text-align: center;
