@@ -1,0 +1,52 @@
+body{
+   background-image: url(./Downloads/fundo.png);
+   padding: 0%;
+   margin: 0%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkorchid;
+}
+section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+}
+form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-top: 23px;
+}
+form label{
+    margin-left: 10px;
+}
+.radio{
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid rgb(174, 103, 240);
+    border-radius: 5px;
+}
+button{
+    background-color: darkslateblue;
+    border-radius: 5px;
+    color:white;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+    cursor:pointer
+}
+button:hover{
+    transition: 0.3s;
+    background-color: rgb(158, 105, 202);
+}
+
+
