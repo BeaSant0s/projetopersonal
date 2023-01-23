@@ -12,6 +12,7 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkorchid;
     height: 30%;
+    font-size: x-large;
 }
 section{
   
@@ -19,12 +20,7 @@ section{
    justify-content: center;
    
 }
-.tabela{
 
-    margin-left: 35%;
-
-
-}
 form {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
@@ -34,7 +30,10 @@ form {
     border: 5px solid darkorchid;
     border-radius: 10px;
     padding: 20px;
-    height: 30%;
+    padding-left: 50px;
+    margin-left: 470px;
+    
+   
 }
 
 form label{
