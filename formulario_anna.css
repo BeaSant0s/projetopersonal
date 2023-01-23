@@ -1,5 +1,5 @@
 body{
-   background-image: url(./Downloads/fundo.png);
+   background-image: url(./fotos/fundo.png);
    padding: 0%;
    margin: 0%;
 }
@@ -11,18 +11,32 @@ header{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkorchid;
+    height: 30%;
 }
 section{
-   display: flex;
+  
    align-items: center;
    justify-content: center;
-   height: 80vh;
+   
+}
+.tabela{
+
+    margin-left: 35%;
+
+
 }
 form {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
     margin-top: 23px;
+    width: 50%;
+    margin: 40px 0;
+    border: 5px solid darkorchid;
+    border-radius: 10px;
+    padding: 20px;
+    height: 30%;
 }
+
 form label{
     margin-left: 10px;
 }
