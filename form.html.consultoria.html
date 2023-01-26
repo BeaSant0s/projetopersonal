@@ -10,64 +10,62 @@
   <body>
    
     <header class="header">
-        Formuário de inscrição
+        <h4>Formuário de inscrição</h4>
     </header>
     <section>
         <form>
-            <div class="tabela">
+            <div class="tabela mt-5" >
                
-                    <p>Escolha a quantidade de dias:</p>
-                <input class="form control" type="checkbox" name="dias" id="dias" >  
-                <label for="dias">3 dias</label>  </br>
-         
-                <input class="form control" type="checkbox" name="dias" id="dias" >  
-                <label for="dias">5 dias</label> </br> </br>
-         
-                <p>Escolha o modo de avaliação:</p>
-                <input class="form control" type="checkbox" name="dias" id="dias" >  
-                <label for="dias">whatsapp</label> </br>
-           
-                <input class="form control" type="checkbox" name="dias" id="dias" >  
-                <label for="dias">chamada no meet</label> </br>
-           
-           
-                <input class="form control" type="checkbox" name="dias" id="dias" >  
-                <label for="dias">Email</label>  </br> </br>
-           
-               <p>Especialidade:</p>
-               <input class="form control" type="checkbox" name="dias" id="dias" >  
-               <label for="dias">Atletas</label>  </br>
-       
-       
-               <input class="form control" type="checkbox" name="dias" id="dias" >  
-               <label for="dias">Idosos</label>  </br>
-       
-       
-              <input class="form control" type="checkbox" name="dias" id="dias" >  
-              <label for="dias">Hipertrofia</label> </br> </br>
-
-
-             <p>Escolha o horário:</p>
-            <input class="form control" type="checkbox" name="dias" id="dias" >
-            <label for="dias">Manhã</label> </br>
-       
-            <input class="form control" type="checkbox" name="dias" id="dias" >
-            <label for="dias">Tarde</label> </br>
-       
-            <input class="form control" type="checkbox" name="dias" id="dias" >
-            <label for="dias">Noite</label> </br> </br>
-           
+                   <p> <b><p>Qual sua idade:</p></b>
+                <input class="form control" type="number" name="dias" id="dias" >  
                
-           <p>Escolha a faixa de preço:</p>
-           <input class="form control" type="checkbox" name="dias" id="dias" >
-           <label for="dias">abaixo de R$100,00</label> </br>
-       
-           <input class="form control" type="checkbox" name="dias" id="dias" >
-           <label for="dias">acima de R$100,00</label> </br>
-     
-           <input class="form control" type="checkbox" name="dias" id="dias" >
-           <label for="dias">acima de R$200,00</label> </br>
-       
+              </p>
+        
+                <p><b><p>Faça o envio de 3 fotos: 1 de costas, 1 de lado, 1 frontal.</p></b>
+                <P>
+                <label for="Arquivo">Selecione seu arquivo(PDF):</label> </br>
+                <input class="form control" type="file" name="dias" id="Arquivo" >  
+              </P>
+               
+              </p>
+        
+              <p> <b> <p>Informe seu peso.</p> </b>
+               <input class="form control" type="number" name="dias" id="dias" >  
+               
+       <p> 
+               <p> <b><p>Informe sua altura.</p></b>
+               <button type="button" id="menos" onclick="Num()"><i class="fa fa-minus-circle"aria-hidden="true"></i></button> &nbsp; <input type="number" name="numero" id="num" oninput="Num()"> &nbsp; <button type="button" id="mais" onclick="Num()"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+
+            
+            <p>
+              <b><p>Você é portador de algum problema de saúde que possa interferir no treino?</p></b></p>
+               <input class="form control" type="radio" name="dias" id="dias" >  
+               <label for="dias">Sim</label>  </br>
+
+               <input class="form control" type="radio" name="dias" id="dias" >  
+               <label for="dias">Não</label>  </br>
+
+               <p>
+             <b> <p>Se sim, qual?</p></b>
+            </p>
+            
+             <input type="text" id="name">
+  
+    
+
+          <p> <b><p>Selecione a data de inicio, a partir do envio das informações: </p></b></br>
+
+           <input class="form control" type="datetime-local" name="dias" id="dias" >
+          </p>
+
+          <p>
+          <p>
+           <b> <p>Por fim, qual suas metas?</p></b>
+            <label for="txt2"></label> <br>
+               <textarea id="txt2"></textarea>
+          </p>
+        </p>
+
         </div> </br>
        
          <div class="button">
