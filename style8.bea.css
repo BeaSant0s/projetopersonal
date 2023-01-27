@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./fotos/fundo.png);
+    }
+    ul{
+    list-style: none;
+    padding: 0;
+    }
+    .container-fluid{
+        background-color: darkorchid;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .buscar{
+        background-color: pink;
+    }
+    nav{
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    nav, ul{
+    display: flex;
+    flex-direction: row;
+    }
+    li{
+    padding: 0 35px;
+    }
+    li:hover, h1:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.5);
+    }
+    h1{
+        text-align: center;
+        }
+   input{
+    border: solid 1px darkorchid;
+    border-radius: 5px;
+   }
+   p{
+    font-size: 22px;
+    text-align: center;
+   }
+   h3{
+    text-align: center;
+    font-size: ;
+   }
+   button{
+    border: 1px solid cornflowerblue;
+   }
+   .principal{
+    border: 1px solid blueviolet ;
+   }
+   .exerc{
+    text-align: center;
+    border: solid 1px cornflowerblue;
+   }
+   .tab{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .medidas{
+   
+   }
