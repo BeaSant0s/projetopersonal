@@ -65,39 +65,42 @@ body {
       background-color: rgba(255, 255, 255, 0.5);
   
       }
-      img{
-        float: left;
-        border: transparent thin solid;
-        padding: 5px;
-        margin: 0px 10px 10px 0;
-        max-width: 1000px;
+    h1{
+        text-align: center;
+        }
+   input{
+    border: solid 1px darkorchid;
+    border-radius: 5px;
+   }
+   p{
+    font-size: 22px;
+    text-align: center;
+   }
+   h3{
+    text-align: center;
+   }
+   button{
+    border: 1px solid cornflowerblue;
+   }
+   .principal{
+    border: 1px solid blueviolet ;
+   }
+   .avaliaçoes{
+    border: 1px solid blueviolet ;
+   }
+    img{
+        padding-left: 30px;
+        padding-top: 30px;
     }
-    .final{
-      background-color: black;
-      padding: 0 20px;
-      display: flex;
-      flex-direction: column;
+    .botao{
+        padding-left: 80px;
     }
-    h3{
-      color:black;
-      text-align: center;
-      text-align: justify;
-      line-height: 45px;
-    }
-    button{
-        background-color: pink;
-        font-family: cambria, Arial;
-        font-size: 23px;
-        border-radius: 10px;
-        opacity: 0,5s;
-    }
-    .col-4, button{
+    .ava{
         text-align: center;
     }
-    footer{
-        background-color: darkorchid;
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
+    .perso{
         text-align: center;
-        padding-left: 10px;
+    }
+    .foto{
+        border: 1px solid blueviolet ;
     }
