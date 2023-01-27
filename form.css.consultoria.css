@@ -72,6 +72,11 @@ body {
      font-size: 21px;
      margin-top: 23px;
      text-align: center;
+     border: 7px solid darkorchid;
+    width: 50%;
+    margin: 0  auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   form label{
      margin-left: 10px;
@@ -81,13 +86,14 @@ body {
      padding: 20px;
      min-width: 300px;
      border: 1px solid rgb(174, 103, 240);
-     border-radius: 10px;
+     border-radius: 10px; 
   }
   .header{
-    background-color: rgb(144, 73, 211);
+    background-color: rgb(66, 56, 129);
     padding: 20px;
     text-align: center;
     font-style: initial;
+   color: aliceblue;
    
   }
 
