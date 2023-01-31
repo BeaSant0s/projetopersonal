@@ -15,7 +15,7 @@ body {
     }
     nav{
     padding: 0 20px;
-    background-color: rgb(226, 43, 144);
+    background-color: darkorchid;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -92,7 +92,7 @@ body {
     padding-bottom: 0.5px;
     padding-top: 0.2px;
     font-weight: 500;
-    background-color: rgb(226, 43, 144);
+    background-color:  darkorchid ;
     font-size: larger;
     box-shadow: 10px 20px grey;
  
