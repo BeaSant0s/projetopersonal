@@ -8,7 +8,7 @@ body {
     padding: 0;
     }
     .container-fluid{
-        background-color: rgb(226, 43, 144);
+        background-color:  darkorchid;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 600;
         font-size: 25px;
@@ -47,7 +47,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     }
     button{
-      background-color: darkslateblue;
+      background-color:  darkorchid;
       border-radius: 5px;
       color:white;
       padding: 15px;
@@ -59,7 +59,7 @@ body {
   }
   button:hover{
       transition: 0.3s;
-      background-color: rgb(158, 105, 202);
+      background-color: darkorchid;
   }
   section{
  
@@ -72,6 +72,11 @@ body {
      font-size: 21px;
      margin-top: 23px;
      text-align: center;
+     border: 7px solid darkorchid;
+    width: 50%;
+    margin: 0  auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   form label{
      margin-left: 10px;
@@ -80,14 +85,15 @@ body {
      outline: unset;
      padding: 20px;
      min-width: 300px;
-     border: 1px solid rgb(174, 103, 240);
-     border-radius: 10px;
+     border: 1px solid  darkorchid;
+     border-radius: 10px; 
   }
   .header{
-    background-color: rgb(144, 73, 211);
+    background-color: darkorchid;
     padding: 20px;
     text-align: center;
     font-style: initial;
+   color: aliceblue;
    
   }
 
